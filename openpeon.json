@@ -1,0 +1,80 @@
+{
+  "cesp_version": "1.0",
+  "name": "sts2_twotailrats",
+  "display_name": "Slay the Spire 2 Two-Tailed Rats",
+  "description": "Monster voice lines from Slay the Spire 2 — the Two-Tailed Rats' hurts, deaths, attacks, and summon shrieks (gritty combat-only VO pack)",
+  "version": "1.0.0",
+  "author": {
+    "name": "flavono123",
+    "github": "flavono123"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/twotailrats_summon_1.wav", "label": "Summon 1", "sha256": "4fe19ed025ce3268442c4c96a5f28c7306fe342161f931b4788a6e0f25a50c63" },
+        { "file": "sounds/twotailrats_summon_2.wav", "label": "Summon 2", "sha256": "194bb15acdd1a202acb716576ebcc0d942c91a59cbdbd19b337e05e207b18a71" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/twotailrats_attack1_a_1.wav", "label": "Charge 1", "sha256": "1f6b9137aa3eb1c43b62cd9df927344725a6189af49c7de459ba0cded80a99ec" },
+        { "file": "sounds/twotailrats_attack1_a_2.wav", "label": "Charge 2", "sha256": "817a254568a8f5f137fed9f246d103fca01ccf7b92e50a5559f63cb7327a84c3" },
+        { "file": "sounds/twotailrats_attack1_a_3.wav", "label": "Charge 3", "sha256": "dc56f19673c35a3dde2c3507c08c3c94b99eb3f6e6fda5ac2e60db2d122c60f3" },
+        { "file": "sounds/twotailrats_attack1_a_4.wav", "label": "Charge 4", "sha256": "745ae6875d890c389befba90fdb7ff799f66a5f3d3bd4ef9573acf8f25f7b560" },
+        { "file": "sounds/twotailrats_attack1_a_5.wav", "label": "Charge 5", "sha256": "a350efe6c2968b4f3546286521cda4e9e44c18bb64a4daa41ee22a0ff03807bc" },
+        { "file": "sounds/twotailrats_attack1_a_6.wav", "label": "Charge 6", "sha256": "9e04b907f49a81164d779c3ef74bb102fb089a39f5ad2413f0f1e5d0a3876b24" },
+        { "file": "sounds/twotailrats_attack1_a_7.wav", "label": "Charge 7", "sha256": "a3a08f1d01b800917373d9527998eb520b9d5c025bbb36155ffe48cecdbdae7c" },
+        { "file": "sounds/twotailrats_attack1_a_8.wav", "label": "Charge 8", "sha256": "fea9085fb57d4c5f2648c51aa926a879c881432af3827a440d12c5bd614e05af" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/twotailrats_attack2_1.wav", "label": "Finisher 1", "sha256": "9ec78440c1eb844949cf02f3257b9101a43df69fdb0c99d745a9be624f30dc86" },
+        { "file": "sounds/twotailrats_attack2_2.wav", "label": "Finisher 2", "sha256": "353e80c6ffebf1a261dc4244189361bc691b4451752fdeb414aa78968931a452" },
+        { "file": "sounds/twotailrats_attack2_3.wav", "label": "Finisher 3", "sha256": "c589bbfdd7c653927828b61cc2c5cd4be05f6657d3bd7a76e3d4766b95e15b91" },
+        { "file": "sounds/twotailrats_attack2_4.wav", "label": "Finisher 4", "sha256": "7eac25a868cb5f20dbd9b3e6e969c9a87f35ca37cd309f52c63f37f60ac8a4a6" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/twotailrats_hurt_1.wav", "label": "Hurt 1", "sha256": "da4a34e5f4add5bc7d0ee623bf98dcddd44da68b6efc7589f78ba4d9b5073037" },
+        { "file": "sounds/twotailrats_hurt_2.wav", "label": "Hurt 2", "sha256": "6a31f193681f2e59f2ed73baeee9b5c4dba9c2637d0be3966cd94e81c791a0da" },
+        { "file": "sounds/twotailrats_hurt_3.wav", "label": "Hurt 3", "sha256": "6b1f6786ddcf5f94809e39e8d5e65ef05e2414c7a08ea80399765d93aa18cf5f" },
+        { "file": "sounds/twotailrats_hurt_4.wav", "label": "Hurt 4", "sha256": "428dada5133df6403a5e609b32ed554bf267f2cffa18aa2ba7ca76cbe8cf18fb" },
+        { "file": "sounds/twotailrats_hurt_5.wav", "label": "Hurt 5", "sha256": "e977b94dc678c57dac9d91503127fb1c2fe3f19a39b56e7f9c53f7a7dddae925" },
+        { "file": "sounds/twotailrats_hurt_6.wav", "label": "Hurt 6", "sha256": "ca565c6dfaceb587f6d53f51fd0e19eb49fc8c213ee62544397c93be69db504a" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/twotailrats_attack1_b_1.wav", "label": "Prod 1", "sha256": "3e49c50c6cca6b12d92997dd91e4c44dd4c501986e9cff4126791a0c93260d16" },
+        { "file": "sounds/twotailrats_attack1_b_2.wav", "label": "Prod 2", "sha256": "3a562d0c8babb700bc99f806e4c0ae32a616541686a0623aefb8617fc8a2e4f0" },
+        { "file": "sounds/twotailrats_attack1_b_3.wav", "label": "Prod 3", "sha256": "759b6a4b65334ce7cbec750bdf9b546f41962c2ebbca8d46a76596ef57630ca6" },
+        { "file": "sounds/twotailrats_attack1_b_4.wav", "label": "Prod 4", "sha256": "4788d6085672a3d94b8345daa60615b92b323c520bb5a349076469f87ac1ac4e" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/twotailrats_die_1.wav", "label": "Dying 1", "sha256": "be847134dfed4e4b14027308d192410a2ac7e723ee80cadb2ab8c1f21316808f" },
+        { "file": "sounds/twotailrats_die_2.wav", "label": "Dying 2", "sha256": "78a5b50a03db4b60e16fa0eea79d93b8a987faeb8d3bcd0620655936101fd4dc" },
+        { "file": "sounds/twotailrats_die_3.wav", "label": "Dying 3", "sha256": "70193ba8d14555a163669a939b0e63e889a1ac26d2e90454ee51041de10ac351" },
+        { "file": "sounds/twotailrats_die_4.wav", "label": "Dying 4", "sha256": "3acf500672232125c7ed4736b80754a1b0e8027b87efc741ee6f88c8a641b63c" },
+        { "file": "sounds/twotailrats_die_5.wav", "label": "Dying 5", "sha256": "1404010c5b27f20ef99d4ad4f6c88946347e23b5362ca493c857c74deffc3fdf" },
+        { "file": "sounds/twotailrats_die_6.wav", "label": "Dying 6", "sha256": "73eb9b0b844b2a2ed070b5725cf106b14e19bbd57579218e2c42ad2d4c5ef8b1" },
+        { "file": "sounds/twotailrats_die_7.wav", "label": "Dying 7", "sha256": "42209359a175164e89125ee365fc41f397358ec3e8052785b99623d79b8dba83" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/twotailrats_hurt_7.wav",  "label": "Spam squeal 1", "sha256": "e4c2d10cdddd4ceb361869b02d8b1e5240e35f31a8ca2b32ed73f3ff1f4b2769" },
+        { "file": "sounds/twotailrats_hurt_8.wav",  "label": "Spam squeal 2", "sha256": "229e113502790d0bd8eff1f5f7a93cb175e953e8cf0b13b3c1513cc92f0bd750" },
+        { "file": "sounds/twotailrats_hurt_9.wav",  "label": "Spam squeal 3", "sha256": "769b60075f6c5b4641a377d4051a0d8ccafb0fcdfa249ce50c1d67a930b107e4" },
+        { "file": "sounds/twotailrats_hurt_10.wav", "label": "Spam squeal 4", "sha256": "445316e6a449febf18b888f5fb0a5237949bf538637b0d36a1440d49f7d3c811" },
+        { "file": "sounds/twotailrats_hurt_12.wav", "label": "Spam squeal 5", "sha256": "19ed4ae5723ac20b7503c08bca6b7be21cec963c94ccccdd0798d9cf73eea296" },
+        { "file": "sounds/twotailrats_hurt_13.wav", "label": "Spam squeal 6", "sha256": "328cd2f71fd0029cde604a17559e87810601efb8dea03a80583feaffe5ee568f" }
+      ]
+    }
+  }
+}
